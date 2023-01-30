@@ -15,6 +15,10 @@ This project was created to help manage custom code in a Webflow project. It use
 - Build custom code bundle with `npm run build` (output in `dist/` folder)
 - Start Webpack in watch mode with `npm run watch`
 
+## SRC folder
+
+The `src/` folder only requires one file: `index.js` (or `index.ts` if TypeScript is being used). The folders `components/`, `plugins/`, `pages/`, and `styles/` have established shortcuts (aliases) in Webpack, so they can be directly referenced in import statements.
+
 ## Configuration
 
 In `./wfconfig.js` there are 3 configurable options:
