@@ -17,7 +17,7 @@ This project was created to help manage custom code in a Webflow project. It use
 
 ## Configuration
 
-In `./wfconfig.json` there are 3 configurable options:
+In `./wfconfig.js` there are 3 configurable options:
 
 - `bundleName`: name of bundle in` dist/` folder
 - `cloudPath`: path to cloud folder on your machine for dev copy of bundle
