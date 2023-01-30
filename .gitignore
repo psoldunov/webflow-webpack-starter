@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+dist/
+
+# DS_Store
+.DS_Store
