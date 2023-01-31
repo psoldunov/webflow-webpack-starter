@@ -5,6 +5,13 @@
 		"module": "es6",
 		"target": "es5",
 		"allowJs": true,
-		"moduleResolution": "node"
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"components/*": ["src/components/*"],
+			"pages/*": ["src/pages/*"],
+			"styles/*": ["src/styles/*"],
+			"plugins/*": ["src/plugins/*"]
+		}
 	}
 }
