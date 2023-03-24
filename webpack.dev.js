@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const wfConfig = require('./wfconfig.js');
+const wfConfig = require('./webflow.config.js');
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');

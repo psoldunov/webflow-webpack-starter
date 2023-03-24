@@ -1,4 +1,4 @@
-const globalFunction = (string) => {
+const globalFunction = (string: string) => {
 	console.log(string);
 };
 

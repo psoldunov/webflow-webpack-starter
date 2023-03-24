@@ -1,11 +1,9 @@
 const path = require('path');
-const wfConfig = require('./wfconfig.js');
-
-const entryName = wfConfig.typescript ? 'index.ts' : 'index.js';
+const wfConfig = require('./webflow.config.js');
 
 module.exports = {
 	entry: {
-		app: path.resolve(__dirname, `src/${entryName}`),
+		app: path.resolve(__dirname, `src/index.ts`),
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
@@ -42,6 +40,7 @@ module.exports = {
 			plugins: path.resolve(process.cwd(), 'src/plugins/'),
 			pages: path.resolve(process.cwd(), 'src/pages/'),
 			components: path.resolve(process.cwd(), 'src/components/'),
+			functions: path.resolve(process.cwd(), 'src/functions/'),
 		},
 	},
 };

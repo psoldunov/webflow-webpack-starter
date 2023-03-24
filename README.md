@@ -6,7 +6,7 @@ This project was created to help manage custom code in a Webflow project. It use
 
 - Webpack
 - CSS/SASS loader
-- Typescript (optional)
+- Typescript
 - Source mapping for dev build
 
 ## Usage
@@ -17,7 +17,7 @@ This project was created to help manage custom code in a Webflow project. It use
 
 ## SRC folder
 
-The `src/` folder only requires one file: `index.js` (or `index.ts` if TypeScript is being used). The folders `components/`, `plugins/`, `pages/`, and `styles/` have established shortcuts (aliases) in Webpack, so they can be directly referenced in import statements.
+The `src/` folder only requires one file: `index.ts`. The folders `components/`, `function s/`, `plugins/`, `pages/`, and `styles/` have established shortcuts (aliases) in Webpack, so they can be directly referenced in import statements.
 
 ## Configuration
 
@@ -25,7 +25,6 @@ In `./wfconfig.js` there are 3 configurable options:
 
 - `bundleName`: name of bundle in` dist/` folder
 - `cloudPath`: path to cloud folder on your machine for dev copy of bundle
-- `typescript`: set to true to use TypeScript (rename file extensions to `.ts` in `src/` folder)
 
 ### CSS
 
